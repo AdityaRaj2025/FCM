@@ -5,7 +5,7 @@ use Monolog\Handler\StreamHandler;
 
 class FCM {
     private $url = 'https://fcm.googleapis.com/fcm/send';
-    private $apiKey = 'AAAAmvk1uaQ:APA91bEWp8FLbC3Gm3qeNS7FJQXlHCJqTeWuLrERo4G5GNG_vRHRIyK4zI3-XxxWnV_a8DNgC1KfTNKFSqqmSu1IYktzD3JvUdK2ekh-NM4K4VgcwEQsgy52uxvv5_fUgQdCmEpzABHN'; // This apikey is from Raj Google account
+    private $apiKey = 'yourapikey';
     
     public function sendFCM($notifMsg, $tokens) {
         $headers = array(
